@@ -1,1 +1,1 @@
-web: gunicorn Colab.wsgi:application --log-file -
+web: gunicorn Colab.wsgi --log-file -
