@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Colab.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        '"DIRS": ["Colab/templates/"],
+        'DIRS': ['Colab/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
